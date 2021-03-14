@@ -2,7 +2,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 var path = require('path')
 const express = require('express')
-const mockAPIResponse = require('./mockAPI.js')
 
 const app = express()
 const fetch = require('node-fetch')
@@ -14,6 +13,8 @@ const cookieParser = require('cookie-parser')
 app.use(bodyParser.json());
 app.use(cors());
 app.use(cookieParser());
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 app.use(express.static('dist'))
 
