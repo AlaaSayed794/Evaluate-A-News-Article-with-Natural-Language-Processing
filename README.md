@@ -1,4 +1,4 @@
-# Project Instructions
+# Project Overview
 
 This repo is your starter code for the Evaluating articles project.
 
